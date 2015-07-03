@@ -2,6 +2,7 @@ var cx = React.addons.classSet;
 
 var helloWorld = ReactMeteor.createClass({
 
+  mixins: [ReactMeteor.Mixin],
 
   templateName: "helloWorld",
 
